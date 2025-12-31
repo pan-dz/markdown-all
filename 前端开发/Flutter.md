@@ -31,4 +31,17 @@ which flutter
 
 ```
 
+### 设置国内下载镜像
+```
+# 移除官方源
+pod repo remove trunk
 
+# 添加清华镜像源
+pod repo add-cdn trunk https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git
+
+# 或者使用科大镜像源
+# pod repo add-cdn trunk https://mirrors.ustc.edu.cn/cocoapods/
+
+# 更新源
+pod repo update
+```
