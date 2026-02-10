@@ -18,3 +18,16 @@ git push origin dev
 # 关联远程分支
 git push --set-upstream origin dev
 ```
+
+### git 打tag
+```
+# 新建tag
+git tag v1.0.0
+
+# 推送远程
+git push tag v1.0.0
+
+
+
+
+```
