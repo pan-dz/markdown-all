@@ -28,6 +28,8 @@ git tag v1.0.0
 git push tag v1.0.0
 
 
-
+# 为单个项目设置git用户信息
+git config user.name dengzhipan
+git config user.email 1768438673@qq.com
 
 ```
