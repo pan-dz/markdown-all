@@ -33,3 +33,12 @@ git config user.name dengzhipan
 git config user.email 1768438673@qq.com
 
 ```
+
+### 删除分支
+```
+# 删除本地分支
+git branch -d dev
+
+# 删除远程分支
+git push origin --delete dev
+```
